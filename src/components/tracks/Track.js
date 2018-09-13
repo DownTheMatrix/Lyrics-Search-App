@@ -14,7 +14,7 @@ const Track = ( props ) => {
                         <strong><i className="fas fa-compact-disc"></i> Album: </strong>{ track.album_name }
                     </p>
                     <Link to={ `lyrics/track/${track.track_id}` } className="btn btn-primary btn-block">
-                        <i className="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right"> Search Lyrics</i>
                     </Link>
                 </div>
             </div>
