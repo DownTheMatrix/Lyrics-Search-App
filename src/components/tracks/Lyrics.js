@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Spinner from '../layout/Spinner';
+import Moment from "react-moment";
 
 class Lyrics extends Component {
   state = {
@@ -72,7 +73,7 @@ class Lyrics extends Component {
             </li>
             <li className="list-group-item">
               <strong>Release Date</strong>:{" "}
-              { track.first_release_date }
+              <Moment format="DD/MM/YYYY">{ track.first_release_date }</Moment>
             </li>
           </ul>
         </React.Fragment>
