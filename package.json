@@ -21,7 +21,7 @@
     "react-moment": "^0.7.9",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.1.1",
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
