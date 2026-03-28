@@ -15,12 +15,12 @@
     "mem": "^5.1.1",
     "mixin-deep": "^2.0.1",
     "moment": "^2.22.2",
-    "node-forge": "^1.0.0",
+    "node-forge": "^1.4.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-moment": "^0.7.9",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.1.1",
+    "react-scripts": "^5.0.1",
     "set-value": "^4.0.1"
   },
   "scripts": {
